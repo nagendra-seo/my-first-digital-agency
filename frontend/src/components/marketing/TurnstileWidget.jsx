@@ -28,16 +28,25 @@ export function TurnstileWidget({ siteKey, onVerify, resetKey }) {
   }, []);
 
   useEffect(() => {
-    if (!scriptLoaded || !containerRef.current || !window.turnstile) return;
-    widgetIdRef.current = window.turnstile.render(containerRef.current, {
-      sitekey: siteKey,
-      callback: onVerify,
-      "error-callback": () => onVerify(""),
-      "expired-callback": () => onVerify(""),
-      theme: "light",
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [scriptLoaded, siteKey]);
+  if (
+    !scriptLoaded ||
+    !containerRef.current ||
+    !window.turnstile ||
+    !siteKey
+  ) {
+    return;
+  }
+
+  widgetIdRef.current = window.turnstile.render(containerRef.current, {
+    sitekey: siteKey,
+    callback: onVerify,
+    "error-callback": () => onVerify(""),
+    "expired-callback": () => onVerify(""),
+    theme: "light",
+  });
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [scriptLoaded, siteKey]);
 
   useEffect(() => {
     if (resetKey === undefined) return;
