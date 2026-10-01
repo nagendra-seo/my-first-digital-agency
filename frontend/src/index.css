@@ -1,0 +1,48 @@
+@import "@fontsource/plus-jakarta-sans/600.css";
+@import "@fontsource/plus-jakarta-sans/700.css";
+@import "@fontsource/plus-jakarta-sans/800.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background-color: #FBFAF6;
+  color: #1F1B16;
+}
+
+::selection {
+  background-color: #FBD758;
+  color: #0F0C09;
+}
+
+:focus-visible {
+  outline: 2px solid #DDA80E;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.eyebrow {
+  @apply text-xs font-bold uppercase tracking-widest text-gold-600;
+}
+
+.section-py {
+  @apply py-20 md:py-28;
+}

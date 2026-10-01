@@ -1,0 +1,127 @@
+export const SERVICES = [
+  {
+    slug: "seo",
+    number: "01",
+    name: "SEO",
+    shortDescription: "Get found by the right people with smart, sustainable search strategies.",
+    iconPath: "M11 4a7 7 0 104.9 12l4.55 4.55M11 4a7 7 0 00-7 7m7-7a7 7 0 017 7",
+    whatItIs: "Search engine optimization is the ongoing work of making your website easier for search engines to understand — and easier for the right customers to find — through technical health, content, and earned authority.",
+    problem: "Many businesses have a website that simply isn't visible for the searches that matter to them, or that ranks for the wrong terms entirely, leaving traffic (and revenue) on the table.",
+    whoItsFor: "Businesses with an existing website who want more of the right kind of organic traffic — not just more visitors, but more of the visitors who are actually looking to buy.",
+    approach: [
+      "Technical and on-page audit to find what's holding rankings back",
+      "Keyword research grounded in real search intent, not vanity volume",
+      "Content and on-page improvements prioritized by opportunity",
+      "Ongoing tracking so we can show exactly what's moving and why",
+    ],
+    benefits: ["More qualified organic traffic over time", "A site that's easier for both search engines and customers to navigate", "Clear, honest reporting on what's working"],
+    faqs: [
+      { question: "How long does SEO take to show results?", answer: "It depends on your starting point and competition, but most businesses start seeing meaningful movement within a few months of consistent work. We'll give you a realistic timeline after the audit — never a guaranteed date." },
+      { question: "Do you guarantee first-page rankings?", answer: "No — no honest agency can guarantee a specific Google ranking, and we won't pretend otherwise. What we can commit to is a clear strategy, consistent execution, and transparent reporting on progress." },
+    ],
+  },
+  {
+    slug: "website-optimization",
+    number: "02",
+    name: "Website Optimization",
+    shortDescription: "Build a fast, persuasive digital home that converts attention into enquiries.",
+    iconPath: "M4 5h16a1 1 0 011 1v3H3V6a1 1 0 011-1zM3 9h18v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9zM7 13h6",
+    whatItIs: "Website optimization covers the performance, usability and conversion-path improvements that turn an average website into one that actually earns enquiries — speed, clarity, mobile experience and calls to action all included.",
+    problem: "A slow, cluttered or confusing website quietly turns visitors away before they ever get to your offer, no matter how good your traffic or ads are.",
+    whoItsFor: "Businesses with steady traffic but disappointing enquiry numbers, or anyone whose site feels dated, slow, or hard to use on a phone.",
+    approach: [
+      "Usability and Core Web Vitals review across desktop and mobile",
+      "Conversion-path mapping — where visitors drop off, and why",
+      "Design and copy refinements focused on clarity over cleverness",
+      "Before/after measurement so improvements are provable, not assumed",
+    ],
+    benefits: ["Faster load times and a smoother mobile experience", "Clearer calls to action at the moments that matter", "A site that supports your SEO and ad spend instead of undercutting it"],
+    faqs: [
+      { question: "Do you build brand-new websites or just improve existing ones?", answer: "Both — some clients need a full rebuild, others just need targeted fixes to an otherwise solid site. We'll recommend whichever gets you the better return." },
+    ],
+  },
+  {
+    slug: "content-strategy",
+    number: "03",
+    name: "Content Strategy",
+    shortDescription: "Make your brand memorable with content people actually want to engage with.",
+    iconPath: "M6 4h9l3 3v13a1 1 0 01-1 1H6a1 1 0 01-1-1V5a1 1 0 011-1zM14 4v4h4M8 13h8M8 17h5",
+    whatItIs: "A content strategy connects what you publish — blog posts, guides, case studies, social content — to what your customers are actually searching for and asking about, so content supports SEO and sales instead of sitting unread.",
+    problem: "Publishing content without a plan usually means a lot of effort for very little return: no clear audience, no distribution plan, and no way to tell what worked.",
+    whoItsFor: "Businesses that want to build authority and organic reach over time, or that have tried content before without a clear framework behind it.",
+    approach: [
+      "Audience and topic research based on real questions your customers ask",
+      "An editorial plan mapped to your funnel, not just a content calendar",
+      "Production support — writing, editing, and on-page optimization",
+      "Performance review so the plan keeps improving",
+    ],
+    benefits: ["Content that supports SEO instead of existing separately from it", "A consistent, recognizable voice across channels", "A repeatable system instead of one-off posts"],
+    faqs: [
+      { question: "Will you write the content for us?", answer: "We can handle strategy and production end-to-end, or work alongside your existing team — whichever fits how you like to operate." },
+    ],
+  },
+  {
+    slug: "local-seo",
+    number: "04",
+    name: "Local SEO",
+    shortDescription: "Show up where nearby customers are already looking for a business like yours.",
+    iconPath: "M12 21s7-6.1 7-11.5A7 7 0 105 9.5C5 14.9 12 21 12 21zM12 12a2.5 2.5 0 100-5 2.5 2.5 0 000 5z",
+    whatItIs: "Local SEO focuses on how your business appears in map results and local search — your business profile, reviews, citations, and location-specific pages — so nearby customers find and choose you.",
+    problem: "A business can rank well nationally but still be invisible to the customers around the corner, simply because local signals were never set up properly.",
+    whoItsFor: "Businesses that serve a specific city, region, or set of locations and depend on nearby customers finding them.",
+    approach: [
+      "Business profile audit and optimization",
+      "Consistent citation and directory cleanup",
+      "A genuine, policy-safe approach to gathering customer reviews",
+      "Location-specific pages where it makes sense for multi-location businesses",
+    ],
+    benefits: ["Better visibility in local map results", "A more complete, trustworthy-looking business profile", "More of the right kind of foot traffic and local enquiries"],
+    faqs: [
+      { question: "We have multiple locations — can you handle that?", answer: "Yes — we'll build a structure that gives each location its own visibility without the locations competing against each other in search." },
+    ],
+  },
+  {
+    slug: "lead-generation",
+    number: "05",
+    name: "Lead Generation",
+    shortDescription: "Turn intent into action with focused campaigns built to earn their keep.",
+    iconPath: "M4 4h16l-6 8v6l-4 2v-8L4 4z",
+    whatItIs: "Lead generation is the paid and structured side of growth — search and social campaigns, landing pages, and follow-up systems designed to turn interest into actual enquiries.",
+    problem: "Ad spend without a matching landing page and follow-up process is one of the most common ways businesses waste a marketing budget.",
+    whoItsFor: "Businesses ready to invest in paid channels and wanting campaigns that are accountable to real numbers, not just impressions.",
+    approach: [
+      "Campaign and audience strategy built around your actual sales process",
+      "Landing pages built to match the ad, not just the homepage recycled",
+      "Tracking set up before spend starts, not after",
+      "Regular optimization based on cost-per-lead and lead quality",
+    ],
+    benefits: ["Clearer picture of cost-per-lead and return on ad spend", "Landing pages built specifically to convert campaign traffic", "Campaigns that get sharper over time instead of stalling"],
+    faqs: [
+      { question: "What's the minimum ad budget to get started?", answer: "It depends on your industry and goals — we'll be upfront during the audit about what budget is realistically needed to get meaningful data, rather than taking on a budget that's too small to work with." },
+    ],
+  },
+  {
+    slug: "growth-strategy",
+    number: "06",
+    name: "Growth Strategy",
+    shortDescription: "One senior team across strategy, media, web and creative — pulling the same way.",
+    iconPath: "M4 19h4v-6H4v6zm6 0h4V9h-4v10zm6 0h4V4h-4v15z",
+    whatItIs: "Growth strategy is the layer above any single channel — deciding where SEO, ads, content, and website work should focus first, and how they should reinforce each other instead of pulling in different directions.",
+    problem: "It's common for a business to be running SEO, ads, and content all at once — through different people or agencies — without any of it adding up to a coherent plan.",
+    whoItsFor: "Businesses juggling multiple channels (or multiple vendors) who want one accountable plan instead of a pile of disconnected tactics.",
+    approach: [
+      "A full-picture audit across your current channels and website",
+      "A prioritized roadmap — what to fix first, and why",
+      "One team coordinating execution across channels",
+      "Regular, honest reporting on what's actually moving the needle",
+    ],
+    benefits: ["One accountable partner instead of several disconnected vendors", "A prioritized roadmap instead of a scattered task list", "Reporting that connects channels to actual business outcomes"],
+    faqs: [
+      { question: "Do we have to move every channel to you at once?", answer: "No — a lot of clients start with an audit and one or two priority channels, then expand once the plan is proving itself." },
+    ],
+  },
+];
+
+export function getServiceBySlug(slug) {
+  return SERVICES.find((s) => s.slug === slug);
+}
